@@ -87,7 +87,7 @@ AgroVision_AI_Project/
 Due to GitHub file size limitations, the trained model files are available on Google Drive.
 
  **Google Drive:**  
-(https://drive.google.com/drive/folders/1bBIMKEIJBg0MvIYmt22pWzYceMSfserY?usp=sharing)
+[https://drive.google.com/drive/folders/1bBIMKEIJBg0MvIYmt22pWzYceMSfserY?usp=sharing]
 ---
 
 ##  Installation
