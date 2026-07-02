@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AgroVision AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="main">
+
+    <div class="card">
+
+        <h1>⚡ AgroVision AI</h1>
+        <p class="subtitle">AI Crop Intelligence System</p>
+
+        <!-- Disease -->
+        <form action="/predict_disease" method="post" enctype="multipart/form-data">
+            <input type="file" name="image" required>
+            <button class="btn green">🌿 Detect Disease</button>
+        </form>
+
+        <div class="divider">OR</div>
+
+        <!-- Insect -->
+        <form action="/predict_insect" method="post" enctype="multipart/form-data">
+            <input type="file" name="image" required>
+            <button class="btn orange">🐛 Detect Insect</button>
+        </form>
+
+        <div class="spinner" id="loading"><div></div></div>
+
+    </div>
+
+</div>
+
+<script>
+const forms = document.querySelectorAll("form");
+const spinner = document.getElementById("loading");
+
+forms.forEach(f => {
+    f.addEventListener("submit", () => {
+        spinner.style.display = "block";
+    });
+});
+</script>
+
+</body>
+</html>
