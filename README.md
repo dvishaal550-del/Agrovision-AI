@@ -62,25 +62,41 @@ The project aims to support smart agriculture by providing a fast, reliable, and
 
 ```text
 AgroVision_AI_Project/
-│
 ├── app.py
 ├── model/
-│   ├── disease_model.h5
-│   └── insect_model.h5
-│
+│   ├── disease_model.keras
+│   ├── insect_model.keras
+│   └── tflite/
+│       ├── disease_labels.json
+│       ├── disease_model.tflite
+│       ├── insect_labels.json
+│       └── insect_model.tflite
 ├── static/
-│   ├── style.css
 │   ├── anime_bg.jpg
-│   ├── anime_disease.jpg
-│   ├── anime_insect.jpg
+│   ├── manifest.json
+│   ├── style.css
+│   ├── sw.js
 │   └── uploads/
-│
 ├── templates/
 │   ├── index.html
 │   └── result.html
-│
-├── requirements.txt
-└── README.md
+└── android_app/
+    ├── build.gradle.kts
+    ├── settings.gradle.kts
+    ├── gradlew / gradlew.bat
+    └── app/
+        ├── build.gradle.kts
+        └── src/main/
+            ├── AndroidManifest.xml
+            ├── assets/
+            │   ├── disease_labels.json
+            │   ├── disease_model.tflite
+            │   ├── insect_labels.json
+            │   └── insect_model.tflite
+            └── java/com/agrovision/ai/
+                ├── MainActivity.java
+                └── TFLiteClassifier.java
+
 ```
 ##  Download Trained Models
 
