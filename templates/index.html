@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AgroVision AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="manifest" href="{{ url_for('static', filename='manifest.json') }}">
+    <meta name="theme-color" content="#2E7D32">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<div class="main">
+
+    <div class="card">
+
+        <h1>⚡ AgroVision AI</h1>
+        <p class="subtitle">AI Crop Intelligence System</p>
+
+        <!-- Disease -->
+        <form action="/predict_disease" method="post" enctype="multipart/form-data">
+            <input type="file" name="image" required>
+            <button class="btn green">🌿 Detect Disease</button>
+        </form>
+
+        <div class="divider">OR</div>
+
+        <!-- Insect -->
+        <form action="/predict_insect" method="post" enctype="multipart/form-data">
+            <input type="file" name="image" required>
+            <button class="btn orange">🐛 Detect Insect</button>
+        </form>
+
+        <div class="spinner" id="loading"><div></div></div>
+
+    </div>
+
+</div>
+
+<script>
+const forms = document.querySelectorAll("form");
+const spinner = document.getElementById("loading");
+
+forms.forEach(f => {
+    f.addEventListener("submit", () => {
+        spinner.style.display = "block";
+    });
+});
+
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register("{{ url_for('static', filename='sw.js') }}");
+}
+</script>
+
+</body>
+</html>

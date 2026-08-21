@@ -1,0 +1,23 @@
+{
+  "classes": [
+    "Aphids",
+    "Caterpillar",
+    "Healthy",
+    "Leafhopper",
+    "Whiteflies"
+  ],
+  "display_names": {
+    "Aphids": "Aphids Infestation",
+    "Caterpillar": "Caterpillar Damage",
+    "Healthy": "Healthy (No Pest Found)",
+    "Leafhopper": "Leafhopper Infestation",
+    "Whiteflies": "Whiteflies Infestation"
+  },
+  "recommendations": {
+    "Aphids Infestation": "Spray neem oil or insecticidal soap on undersides of leaves.",
+    "Caterpillar Damage": "Apply Bacillus thuringiensis (Bt) spray or handpick caterpillars.",
+    "Healthy (No Pest Found)": "No insect pest infestation detected.",
+    "Leafhopper Infestation": "Use insecticidal soap or yellow sticky cards; remove weeds.",
+    "Whiteflies Infestation": "Apply neem oil or insecticidal soap; place yellow sticky traps."
+  }
+}

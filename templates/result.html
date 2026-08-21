@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="main">
+
+    <div class="card">
+
+        <img src="{{ image_path }}" class="preview">
+
+        <h2>
+            {% if "healthy" in result.lower() %}
+                <span class="healthy">{{ result }}</span>
+            {% elif "Invalid" in result %}
+                <span class="invalid">{{ result }}</span>
+            {% elif "Aphids" in result or "Whiteflies" in result or "Caterpillar" in result or "Leafhopper" in result %}
+                <span class="insect">{{ result }}</span>
+            {% else %}
+                <span class="disease">{{ result }}</span>
+            {% endif %}
+        </h2>
+
+        <p><b>Confidence:</b> {{ confidence }}%</p>
+        <p>{{ cause }}</p>
+        <p>{{ treatment }}</p>
+
+        <a href="/" class="btn back">🔄 Try Again</a>
+
+    </div>
+
+</div>
+
+</body>
+</html>

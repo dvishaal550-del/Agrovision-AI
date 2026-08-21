@@ -1,0 +1,53 @@
+{
+  "classes": [
+    "Pepper__bell___Bacterial_spot",
+    "Pepper__bell___healthy",
+    "Potato___Early_blight",
+    "Potato___Late_blight",
+    "Potato___healthy",
+    "Tomato_Bacterial_spot",
+    "Tomato_Early_blight",
+    "Tomato_Late_blight",
+    "Tomato_Leaf_Mold",
+    "Tomato_Septoria_leaf_spot",
+    "Tomato_Spider_mites_Two_spotted_spider_mite",
+    "Tomato__Target_Spot",
+    "Tomato__Tomato_YellowLeaf__Curl_Virus",
+    "Tomato__Tomato_mosaic_virus",
+    "Tomato_healthy"
+  ],
+  "display_names": {
+    "Pepper__bell___Bacterial_spot": "Pepper Bell - Bacterial Spot",
+    "Pepper__bell___healthy": "Pepper Bell - Healthy",
+    "Potato___Early_blight": "Potato - Early Blight",
+    "Potato___Late_blight": "Potato - Late Blight",
+    "Potato___healthy": "Potato - Healthy",
+    "Tomato_Bacterial_spot": "Tomato - Bacterial Spot",
+    "Tomato_Early_blight": "Tomato - Early Blight",
+    "Tomato_Late_blight": "Tomato - Late Blight",
+    "Tomato_Leaf_Mold": "Tomato - Leaf Mold",
+    "Tomato_Septoria_leaf_spot": "Tomato - Septoria Leaf Spot",
+    "Tomato_Spider_mites_Two_spotted_spider_mite": "Tomato - Spider Mites (Two-Spotted)",
+    "Tomato__Target_Spot": "Tomato - Target Spot",
+    "Tomato__Tomato_YellowLeaf__Curl_Virus": "Tomato - Yellow Leaf Curl Virus",
+    "Tomato__Tomato_mosaic_virus": "Tomato - Mosaic Virus",
+    "Tomato_healthy": "Tomato - Healthy"
+  },
+  "recommendations": {
+    "Pepper Bell - Bacterial Spot": "Spray copper-based bactericides; use pathogen-free seeds.",
+    "Pepper Bell - Healthy": "Plant is healthy! Maintain regular watering and soil nutrition.",
+    "Potato - Early Blight": "Apply protective fungicides (Mancozeb or Chlorothalonil); rotate crops.",
+    "Potato - Late Blight": "Apply copper fungicides or systemic treatments; destroy infected plant debris.",
+    "Potato - Healthy": "Plant is healthy! Maintain proper soil drainage and moisture.",
+    "Tomato - Bacterial Spot": "Use copper-based sprays; avoid overhead irrigation.",
+    "Tomato - Early Blight": "Apply copper or Mancozeb fungicide; prune lower leaves near soil.",
+    "Tomato - Late Blight": "Apply systemic fungicides immediately; remove heavily infected foliage.",
+    "Tomato - Leaf Mold": "Improve greenhouse airflow/ventilation and lower humidity.",
+    "Tomato - Septoria Leaf Spot": "Apply fungicides; remove fallen leaf debris and practice crop rotation.",
+    "Tomato - Spider Mites (Two-Spotted)": "Apply insecticidal soap or neem oil; maintain adequate humidity.",
+    "Tomato - Target Spot": "Apply protective fungicides; improve plant spacing for airflow.",
+    "Tomato - Yellow Leaf Curl Virus": "Control whiteflies using yellow sticky traps/neem oil; remove infected plants.",
+    "Tomato - Mosaic Virus": "Disinfect gardening tools and destroy infected plants (no chemical cure).",
+    "Tomato - Healthy": "Plant is healthy! Continue good cultural practices."
+  }
+}

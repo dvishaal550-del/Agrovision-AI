@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AgroVision AI</string>
+    <string name="title_detection">Plant Disease &amp; Pest AI</string>
+    <string name="mode_disease">Disease Mode</string>
+    <string name="mode_insect">Pest Mode</string>
+    <string name="btn_camera">Take Photo</string>
+    <string name="btn_gallery">Choose Image</string>
+    <string name="result_placeholder">Select or capture an image to analyze</string>
+    <string name="confidence_placeholder">Confidence: --%</string>
+    <string name="treatment_placeholder">Treatment recommendations will appear here.</string>
+</resources>
